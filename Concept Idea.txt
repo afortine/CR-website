@@ -1,0 +1,3 @@
+The primary redesign idea is to make the site a single dynamic page. 
+It would likely be best to incorporate a navigation bar which scrolls with the user on the left hand side of the screen
+and displays which part of the page they are currently on.

@@ -1,0 +1,155 @@
+ul.top {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+ul.side {
+    position: fixed;
+    left: 0;
+    top: 185px;
+    display: table;
+    font-size: 100%;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+}
+
+/* buttons on the bar */
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 110px;
+    text-decoration: none;
+}
+
+/* button hover */
+.dropdown:hover {
+    background-color: #2f69c6;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.back{
+    position: fixed;
+    bottom: 75px;
+    right: 75px;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.side{
+    position: fixed;
+    top: 250px;
+    left: 25px;
+}
+
+/*sect{
+    text-decoration: none;
+    color: transparent;
+}
+
+sect:hover
+{
+    animation: fadein 2s;
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+} 
+*/
+
+t{
+    padding-left: 200px;
+}
+
+h1, h3, h4{
+    padding-left: 200px;
+}
+
+a{
+   text-decoration: none;
+}
+
+.cont{
+    padding: 10px 150px 10px 280px;
+}
+
+body{
+    background-image: url("gradient.png"),linear-gradient(#f4f4f4, #d8edff);;
+    background-repeat: repeat-x;
+}
+footer{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img1{
+    margin: auto;
+    display: block;
+}
+
+#test p {
+    animation: fadein 2s;
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+#page-wrap { 
+  width: 600px; 
+  margin: 15px auto; 
+  position: relative; 
+}
+
+#sidebar { 
+  width: 190px; 
+  position: fixed; 
+  margin-left: 410px; 
+}
+
+.active{
+    color:black;
+}
